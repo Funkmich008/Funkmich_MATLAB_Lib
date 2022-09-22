@@ -1,6 +1,6 @@
 % Reccurence Relation for the spherical Bessel functions of the first kind
 % for integer orders of n
-function j = SphericalBesselj_REC_SINGLE(n, x)   
+function j = SphericalBesselj(n, x)   
     if n>= 0
         %% Reccurence for positive n
         if n == 0
