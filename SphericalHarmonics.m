@@ -1,4 +1,4 @@
-function Y = SphericalHarmonics(l, m, theta, phi)
+function Y = SphericalHarmonicY(l, m, theta, phi)
 
     %% case distinction for postive and negative m
     c = 1;
