@@ -1,5 +1,5 @@
-% Berechnung der gewöhnlichen Legendre-Polynome 1. Art per Rekurrenz-Formel
-function P = LEGENDRE_P(n, x)
+% Berechnung der gewÃ¶hnlichen Legendre-Polynome 1. Art per Rekurrenz-Formel
+function P = Legendre_P(n, x)
 
     if n == 0       
         P = 0 * x + 1;       
