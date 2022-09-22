@@ -1,5 +1,5 @@
 % Berechnung der assoziierten Laguerre-Polynome 1. Art per Rekurrenz-Formel
-function L = Associated_LAGUERRE_L(n, k, x)
+function L = Associated_Laguerre_L(n, k, x)
     if n == 0
         L = 0 * x + 1;
     elseif n == 1
