@@ -1,5 +1,5 @@
-% Berechnung der gewöhnlichen Legendre-Polynome 2. Art per Rekurrenz-Formel
-function Q = LEGENDRE_Q(n, x)
+% Berechnung der gewÃ¶hnlichen Legendre-Polynome 2. Art per Rekurrenz-Formel
+function Q = Legendre_Q(n, x)
 
     if n == 0       
         Q = atanh(x);        
