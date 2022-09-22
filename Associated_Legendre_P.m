@@ -1,5 +1,5 @@
 % Berechnung der assoziierten Legendre-Polynome 1. Art per Rekurrenz-Formel
-function P = Associated_LEGENDRE_P(l, m, x)
+function P = Associated_Legendre_P(l, m, x)
 
     c = 1;
     if m < 0
