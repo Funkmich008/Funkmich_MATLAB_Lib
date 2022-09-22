@@ -1,13 +1,13 @@
 function Y = SphericalHarmonics(l, m, theta, phi)
 
-    %% Fallunterscheidung f�r negative und positive m
+    %% case distinction for postive and negative m
     c = 1;
     if m < 0
         m = - m;
         c = (-1)^m;
     end
 
-    %% Berechnung der assozierten Legendre-Polynome  
+    %% compute associated Legendre polynomials via reccurence relation
     x = cos(theta);    
     if l < m
         P = 0 * x;
@@ -23,9 +23,7 @@ function Y = SphericalHarmonics(l, m, theta, phi)
         end
     end
 
-    %% Berechnung der spherical Harmonics
-     
+    %% compute spherical harmonic     
     Y = c * sqrt((2*l+1)/(4 * pi) * factorial(l-m)/factorial(l+m)) * P .* exp(1i * m * phi);
-     
-    
+       
 end
