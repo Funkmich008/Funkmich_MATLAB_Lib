@@ -1,5 +1,5 @@
 % Berechnung der Laguerre-Polynome 1. Art per Rekurrenz-Formel
-function L = LAGUERRE_L(n, x)
+function L = Laguerre_L(n, x)
 
     if n == 0
         L = 0 * x + 1;
