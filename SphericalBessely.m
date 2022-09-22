@@ -1,6 +1,6 @@
 % Reccurence Relation for the spherical Bessel functions of the second kind
 % for positive and negative integers of n
-function y = SphericalBessely_REC_SINGLE(n, x)
+function y = SphericalBessely(n, x)
     
     if n>= 0
         %% Reccurence for positive n
