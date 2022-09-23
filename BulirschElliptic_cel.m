@@ -2,7 +2,7 @@
 % Paper: Numerical Calculation of Elliptic Integrals and Elliptic Functions III
 % Autor: R. Bulirsch
 % Algorithm by Bartky
-function cel = Bulirsch_cel(k_c, p, a, b)
+function cel = BulirschElliptic_cel(k_c, p, a, b)
 
     mu_old = 1;
     nu_old = abs(k_c);
