@@ -1,7 +1,7 @@
 %% Carlson Elliptic Integral RC
 % Paper: Numerical computation of real or complex elliptic integrals
 % Author: B. C. Carlson
-function RC = Carlson_RC(x_0, y_0)
+function RC = CarlsonElliptic_RC(x_0, y_0)
     
     A_0 = (x_0 + 2*y_0)/3;
 
