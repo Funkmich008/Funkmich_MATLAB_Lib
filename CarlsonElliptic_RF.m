@@ -1,7 +1,7 @@
 %% Carlson Elliptic Integral RF
 % Paper: Numerical computation of real or complex elliptic integrals
 % Author: B. C. Carlson
-function RF = Carlson_RF(x_0, y_0, z_0)
+function RF = CarlsonElliptic_RF(x_0, y_0, z_0)
 
     A_0 = (x_0+y_0+z_0)/3;
     
