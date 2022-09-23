@@ -1,4 +1,4 @@
-function RJ = Carlson_RJ(x_0, y_0, z_0, p_0)
+function RJ = CarlsonElliptic_RJ(x_0, y_0, z_0, p_0)
     
     A_0 = (x_0 + y_0 + z_0 + 2*p_0)/5;
     
