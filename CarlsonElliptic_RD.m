@@ -1,7 +1,7 @@
 %% Carlson Elliptic Integral RD
 % Paper: Numerical computation of real or complex elliptic integrals
 % Author: B. C. Carlson
-function RD = Carlson_RD(x_0, y_0, z_0)
+function RD = CarlsonElliptic_RD(x_0, y_0, z_0)
     
     A_0 = (x_0 + y_0 + 3*z_0)/5;
 
